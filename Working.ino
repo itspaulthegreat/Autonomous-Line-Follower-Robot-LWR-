@@ -1,21 +1,21 @@
 /*
 Connections:
-Arduino Vin – 12v. + or you can use connecting plug(after uploading program)
-IR Vcc – 5v Arduino
-IR Gnd -Arduino Gnd
-Motor driver Vcc – 12v.+
-Motor driver Gnd – 12v.-
-Gnd of Arduino & Motor driver must be made common
-IR 1 o/p – pin 6
-IR 2 o/p – pin 7
-Motor Driver IN1 – pin 8
-Motor Driver IN2 – pin 9
-Motor Driver IN3 – pin 10
-Motor Driver IN4 – pin 11
-Motor 1 – O/P-1 & O/P-2 of Motor Driver
-Motor 2 – O/P-3 & O/P-4 of Motor Driver
+=> Arduino Vin – 12v. + or you can use a connecting plug(after uploading program)
+=> IR Vcc – 5v Arduino
+=> IR Gnd -Arduino Gnd
+=> Motor driver Vcc – 12v.+
+=> Motor driver Gnd – 12v.-
+=> Gnd of Arduino & Motor driver must be made common
+=> IR 1 o/p – pin 6
+=> IR 2 o/p – pin 7
+=> Motor Driver IN1 – pin 8
+=> IN2 – pin 9
+=> IN3 – pin 10
+=> IN4 – pin 11
+=> Motor 1 – O/P-1 & O/P-2 of Motor Driver
+=> Motor 2 – O/P-3 & O/P-4 of Motor Driver
 ///////////////////////////////////////////////////////////////
-For any queries, mail us at: support@niltech.in*/void setup() {
+
 
 Serial.begin(9600);
 pinMode(8,OUTPUT);
